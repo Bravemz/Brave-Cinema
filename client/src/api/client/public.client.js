@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "https://brave-cinema.vercel.app/v1";
+const baseURL = "https://brave-cinema.vercel.app/api/v1/";
 
 const publicClient = axios.create({
   baseURL,
